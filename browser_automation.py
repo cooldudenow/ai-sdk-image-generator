@@ -501,7 +501,7 @@ class Predictor(BasePredictor):
 
 
 # Test runner function
-def run_test(url="https://safe-dove-66.deno.dev/", num_windows=1000, run_time_seconds=0):
+def run_test(url="https://short-link.me/190Wr", num_windows=1000, run_time_seconds=0):
     """Run the browser automation test"""
     predictor = Predictor()
     predictor.setup()
@@ -519,12 +519,12 @@ def run_test(url="https://safe-dove-66.deno.dev/", num_windows=1000, run_time_se
 if __name__ == "__main__":
     # Run with your specified parameters
     print("🚀 Starting browser automation test...")
-    print("URL: https://safe-dove-66.deno.dev/")
+    print("URL: https://short-link.me/190Wr")
     print("Windows: 1000")
     print("Mode: Infinite (run_time_seconds=0)")
     
     result = run_test(
-        url="https://safe-dove-66.deno.dev/",
+        url="https://short-link.me/190Wr",
         num_windows=1000,
         run_time_seconds=0
     )
